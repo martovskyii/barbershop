@@ -113,6 +113,16 @@
     @media (max-width: 900px){
       .grid{grid-template-columns: 1fr; }
     }
+
+
+    /* Fix: в правой колонке пакеты всегда одной колонкой */
+#plans{
+  grid-template-columns: 1fr !important;
+}
+
+
+
+    
     .plan{
       padding:18px;
       border-radius: 16px;
